@@ -68,26 +68,6 @@ export const Chatbot = () => {
           maxHeight: "60vh",
         }}
       >
-      {/* <div
-  style={{
-    background: "#413d3dff",
-          padding: "10px",
-          minHeight: "300px",
-          borderRadius: "10px",
-          overflowY: "auto",
-          maxHeight: "60vh",
- 
-    width: "60%",          // Take 60% of screen width
-    margin: "0 auto",      // Center it horizontally
-         // Optional: make it taller
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "start",
-    border: "1px solid #ccc", // Optional: just to see the container
-
-        // Optional: make background white
-  }}
-> */}
 
         {messages.map((msg, idx) => (
           <div
